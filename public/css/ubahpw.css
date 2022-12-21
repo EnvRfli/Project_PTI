@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body{
+    background: linear-gradient(116.82deg, rgba(0, 115, 217, 0.65) 18.46%, #646AE3 48.44%, rgba(0, 60, 125, 0.85) 77.37%);
+}
+.container{
+box-sizing: border-box;
+
+position: absolute;
+width: 500px;
+height: 500px;
+left: 500px;
+top: 150px;
+
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.27);
+border-radius: 50px;
+}
+h1{
+position: absolute;
+    width: 389px;
+    height: 61px;
+    left: calc(50% - 389px/2 + 0.5px);
+    top: calc(50% - 100px/2 - 176.5px);
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+p{
+position: absolute;
+    width: 350px;
+    height: 44px;
+    left: calc(50% - 386px/2);
+    top: calc(50% - 44px/2 - 124px);
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+#password{
+box-sizing: border-box;
+
+    position: absolute;
+    width: 386px;
+    height: 55px;
+    left: calc(50% - 386px/2);
+    top: calc(50% - 55px/2 - 35.5px);
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 40px;
+}
+#password2{
+box-sizing: border-box;
+
+    position: absolute;
+    width: 386px;
+    height: 55px;
+    left: calc(50% - 386px/2 - 1px);
+    top: calc(50% - 55px/2 + 48.5px);
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 50px;
+}
+.ubah{
+position: absolute;
+    width: 384.62px;
+    height: 62.5px;
+    left: calc(50% - 384.62px/2 - 1.69px);
+    top: calc(50% - 62.5px/2 + 147.58px);
+
+    background: linear-gradient(90deg, #57D1F8 0%, #385AD5 100%);
+    border-radius: 50px;
+    font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 36px;
+    color: #FFFFFF;
+    border-style: none;
+    cursor: pointer;
+}
+input[type=password] {
+    font-size: 18px;
+    padding-left: 25px;
+}

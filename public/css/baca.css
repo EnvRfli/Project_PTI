@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+/* body */
+* {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* list, link dan tombol login */
+li,
+a,
+button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    color: #edf0f1;
+}
+
+p{
+    white-space: pre-line;
+}
+
+/* header */
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #24252a;
+    padding-right: 10px;
+}
+
+.container .user img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+.container .user p{
+    color: white;
+    margin-right: 10px;
+}
+
+.container .user .img-case {
+    position: relative;
+    width: 50px;
+    height: 50px;
+}
+
+.container .user .img-case img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#dropbtn {
+    
+ 
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+#dropbtn:hover,
+.dropbtn:focus {
+    color:  #2980B9;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+
+.show {
+    display: block;
+}
+
+/* navigasi */
+.navigasi {
+    height: 50px;
+    margin-top: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 10%;
+    background-color: #24252a;
+}
+
+/* logo */
+.logo {
+    height: 60px;
+    width: 200px;
+    cursor: pointer;
+    margin-right: auto;
+    margin-left: 20px;
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: #0088a9;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: #00C6BF;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: #0088a9;
+}
+
+/**kanan sidebar */
+.kanan {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: center;
+    width: 20%;
+    float: right;
+    height: 1000px;
+    margin-top: 10px;
+
+}
+
+/**iklan & mneu kanan */
+.iklan {
+    display: flex;
+    width: 80%;
+    height: 80%;
+    background-color: #00C6BF;
+    margin-bottom: 10px;
+}
+
+.berita-populer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+    height: 20%;
+    box-shadow: 0px 4px 69px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.berita-populer img {
+    width: 100%;
+    height: 60%;
+    border-radius: 20px;
+}
+
+
+/*konten halaman utama */
+.main-content {
+    
+    width: 80%;
+    height: 1000px;
+    margin-top: 10px;
+    background-color: #0088a9;
+    float: right;
+}
+
+/*berita hari ini */
+.news {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 10px;
+    position: relative;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    width: 15%;
+}
+
+/*gambar untuk berita terkini */
+.berita-terkini {
+    width: 100%;
+    height: 300px;
+}
+
+/*artikel pada halaman home*/
+.artikel {
+    width: 100%;
+    height: 15%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-start;
+
+    box-shadow: 0px 4px 69px rgba(0, 0, 0, 0.25);
+    margin-bottom: 10px;
+}
+
+/*gambar untuk setiap postingan */
+.gambar {
+    height: 87%;
+    width: 15%;
+
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+/*anak artikel */
+.anak-artikel {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.anak-artikel div {
+    width: 100%;
+}
+
+/*judul artikel */
+.judul-artikel {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*kategori dan waktu upload */
+.kategori-waktu {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.kategori-waktu p {
+    padding-right: 5px;
+}
+
+.kategori {
+    color: tomato;
+}
+
+/**ini sudah masuk ke bagian berita rekomendasi */
+/*box rekomendasi */
+.rekomendasi {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+    height: 400px;
+}
+
+/*baris pertama */
+.pertama {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 200px;
+    margin-top: 10px;
+}
+
+
+/*box isi berita */
+.box {
+    width: 30%;
+
+    border-radius: 20px;
+    box-shadow: 0px 4px 69px rgba(0, 0, 0, 0.25);
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    height: 40%;
+    margin-top: 20px;
+}
+
+.wrapper img {
+    border-radius: 20px;
+    width: 80%;
+}
+
+.box p {
+    margin: 20px;
+}
+
+/*gambar berita */
+.preview {
+    width: 70%;
+    height: 100%;
+    display: flex;
+}
+
+
+/**footer */
+.footer {
+    padding: 40px 0;
+ 
+}
+
+.footer .sosmed {
+    text-align: center;
+    padding-bottom: 25px;
+    color: #ffffff;
+}
+
+.footer a {
+    font-size: 24px;
+    color: inherit;
+    border: 1px solid #ccc;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 0.75;
+}
+
+.copyright {
+    color: white;
+}

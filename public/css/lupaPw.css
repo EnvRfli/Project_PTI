@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+background: linear-gradient(116.82deg, rgba(0, 115, 217, 0.65) 18.46%, #646AE3 48.44%, rgba(0, 60, 125, 0.85) 77.37%);
+}
+
+.container{
+box-sizing: border-box;
+
+    position: absolute;
+    width: 500px;
+    height: 400px;
+    left: 500px;
+    top: 200px;
+
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.27);
+    border-radius: 50px;
+}
+h1{
+position: absolute;
+    width: 500px;
+    height: 70px;
+    left: calc(50% - 500px/2);
+    top: calc(50% - 70px/2 - 145px);
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+
+    text-align: center;
+
+    color: #000000;}
+p{
+position: absolute;
+    width: 386px;
+    height: 40px;
+    left: calc(50% - 386px/2);
+    top: calc(50% - 40px/2 - 90px);
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: rgba(0, 0, 0, 0.53);}
+#email{
+box-sizing: border-box;
+
+    position: absolute;
+    width: 400px;
+    height: 60px;
+    left: calc(50% - 400px/2);
+    top: calc(50% - 60px/2 + 2px);
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 50px;}
+.button{
+position: absolute;
+    width: 400px;
+    height: 60px;
+    left: calc(50% - 400px/2);
+    top: calc(50% - 60px/2 + 94px);
+
+    background: linear-gradient(90deg, #57D1F8 0%, #385AD5 100%);
+    border-radius: 50px;
+    border-style: none;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+.button:hover{
+    background: linear-gradient(90deg, #267792 0%, #3b4f95 100%);
+}
+input[type=email]{
+    font-size: 18px;
+    padding-left: 25px;
+}

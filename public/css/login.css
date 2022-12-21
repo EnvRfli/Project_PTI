@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat',sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(116.82deg, rgba(0, 115, 217, 0.65) 18.46%, #646AE3 48.44%, rgba(0, 60, 125, 0.85) 77.37%);
+}
+/* container */
+.login{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    
+}
+.forgot{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    align-items: center;
+    padding: 30px;
+    border-radius: 10px;
+    width: 400px;
+    
+}
+.container p{
+    width: 80%;
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    
+    justify-content: center;
+    
+}
+h1{
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+p{
+    font-size: small;
+    margin-bottom: 10px;
+}
+form a{
+    text-decoration: none;
+    color:#385AD4 ;
+    font-size: 12px;
+}
+input[type=email],
+input[type=password],
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+
+input[type=button] {
+    width: 100%;
+    background: linear-gradient(90deg, #57D1F8 0%, #385AD5 100%);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=button]:hover {
+    background-color: #45a049;
+}
+
+/**POP UP */
+
+.popup{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 10px;
+    transform: translate(-50%,-50%)scale(0.1);
+    visibility: hidden;
+    left: 50%;
+    top: 0;
+    transition: transform 0.4s, top 0.4s;
+}
+.open-popup{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%, -50%)scale(1);
+}
+
+.popup p{
+    margin: auto;
+}
+.btn{
+    width: 100%;
+    background: linear-gradient(90deg, #57D1F8 0%, #385AD5 100%);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+label{
+    margin-top: 20px;
+}
+
+.alert-danger{color:#842029;background-color:#f8d7da;border-color:#f5c2c7}
+.alert.success {background-color: #04AA6D;}
